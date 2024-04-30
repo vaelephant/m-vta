@@ -12,28 +12,22 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-    title: 'Payroll',
+    // title: 'Payroll',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
+      "提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！",
     image: screenshotPayroll,
   },
   {
-    title: 'Claim expenses',
+    // title: 'Claim expenses',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
+      "提供AI智能+向量训练+训练及个性微调的服务。(M是指以ChatGPT，llama3为代表的大模型，Vector Database 向量数据库，T即训练，A即Assistant)",
     image: screenshotExpenses,
   },
   {
-    title: 'VAT handling',
+    // title: 'VAT handling',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
+      "协助用户友好地和这些大模型交流，获得更精准答案;为企业私有化部署向量数据库 (知识库栏目)，训练修正自有数据知识，打造企业AI智能助手。产品可赋能各种行业场景(解决方案)，如数据挖掘、业务推理、业务流程自动化  等多种智能化服务。",
     image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
   },
 ]
 
@@ -72,11 +66,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to run your books.
+            什么是DR.MVTA
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            Dr.MVTA是基于先进的自然语言模型聚合开发的AI智能产品
           </p>
         </div>
         <Tab.Group

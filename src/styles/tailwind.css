@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 在其他样式之后定义 .dark 类 */
+.dark {
+  background-color: black;
+  color: white; /* 设置字体颜色为白色 */
+}
+
+/* 其他样式 */
 #__next {
   min-height: 100%;
 }
