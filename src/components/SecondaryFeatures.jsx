@@ -11,15 +11,9 @@ import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 const features = [
   {
     name: 'Reporting',
-<<<<<<< HEAD
-    summary: 'Stay on top of things with always up-to-date reporting features.',
-    description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-=======
     summary: '● 项目私有化部署',
     description:
       '遵循附加条件 Apache License 2.0 开源协议，本地部署更安全，更懂您的需求。',
->>>>>>> upstream/main
     image: screenshotProfitLoss,
     icon: function ReportingIcon() {
       let id = useId()
@@ -52,15 +46,9 @@ const features = [
   {
     name: 'Inventory',
     summary:
-<<<<<<< HEAD
-      'Never lose track of what’s in stock with accurate inventory tracking.',
-    description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-=======
       '● 支持多种模型',
     description:
       '支持 Llama3、GPT、Claude、文心一言等多种 LLM 模型，未来也将支持自定义的向量模型。',
->>>>>>> upstream/main
     image: screenshotInventory,
     icon: function InventoryIcon() {
       return (
@@ -86,15 +74,9 @@ const features = [
   {
     name: 'Contacts',
     summary:
-<<<<<<< HEAD
-      'Organize all of your contacts, service providers, and invoices in one place.',
-    description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-=======
       '● 可视化工作流',
     description:
       '通过 Flow 模块展示了从问题输入到模型输出的完整流程，便于调试和设计复杂流程。',
->>>>>>> upstream/main
     image: screenshotContacts,
     icon: function ContactsIcon() {
       return (
@@ -112,8 +94,6 @@ const features = [
       )
     },
   },
-<<<<<<< HEAD
-=======
   {
     name: 'Contacts',
     summary:
@@ -183,7 +163,6 @@ const features = [
       )
     },
   }, 
->>>>>>> upstream/main
 ]
 
 function Feature({ feature, isActive, className, ...props }) {
@@ -306,17 +285,9 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-<<<<<<< HEAD
-            Simplify everyday business tasks.
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
-=======
             Dr.MVTA特点
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
->>>>>>> upstream/main
           </p>
         </div>
         <FeaturesMobile />

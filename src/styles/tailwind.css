@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-=======
 /* 在其他样式之后定义 .dark 类 */
 .dark {
   background-color: black;
@@ -11,7 +9,6 @@
 }
 
 /* 其他样式 */
->>>>>>> upstream/main
 #__next {
   min-height: 100%;
 }

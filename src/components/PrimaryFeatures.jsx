@@ -12,31 +12,6 @@ import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
 const features = [
   {
-<<<<<<< HEAD
-    title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
-  },
-  {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
-  },
-  {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
-  },
-=======
     // title: 'Payroll',
     description:
       "提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！",
@@ -54,7 +29,6 @@ const features = [
       "协助用户友好地和这些大模型交流，获得更精准答案;为企业私有化部署向量数据库 (知识库栏目)，训练修正自有数据知识，打造企业AI智能助手。产品可赋能各种行业场景(解决方案)，如数据挖掘、业务推理、业务流程自动化  等多种智能化服务。",
     image: screenshotVatReturns,
   },
->>>>>>> upstream/main
 ]
 
 export function PrimaryFeatures() {
@@ -92,18 +66,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-<<<<<<< HEAD
-            Everything you need to run your books.
-          </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
-=======
             什么是DR.MVTA
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             Dr.MVTA是基于先进的自然语言模型聚合开发的AI智能产品
->>>>>>> upstream/main
           </p>
         </div>
         <Tab.Group

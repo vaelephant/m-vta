@@ -11,13 +11,8 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-<<<<<<< HEAD
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-=======
     <Container className="pb-16 pt-20 text-center lg:pt-32 text-white">
       <h1 className="mx-auto max-w-4xl font-display text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">
->>>>>>> upstream/main
         用{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -30,15 +25,9 @@ export function Hero() {
           </svg>
           <span className="relative">M-VTA</span>
         </span>{' '}
-<<<<<<< HEAD
-        帮您搭建私有化大模型企业大脑
-      </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-=======
-        帮您搭建私有化<br />大模型企业大脑
+        帮您搭建私有化<br />大模型123企业大脑
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight">
->>>>>>> upstream/main
         基于LLM大模型的“企业大脑+业务自动化”私有化应用系统
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
@@ -49,11 +38,7 @@ export function Hero() {
         >
           <svg
             aria-hidden="true"
-<<<<<<< HEAD
-            className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
-=======
             className="h-3 w-3 flex-none group-active:fill-current"
->>>>>>> upstream/main
           >
             <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
           </svg>
@@ -61,31 +46,14 @@ export function Hero() {
         </Button>
       </div>
       <div className="mt-36 lg:mt-44">
-<<<<<<< HEAD
-        <p className="font-display text-base text-slate-900">
-          Trusted by these six companies so far
-=======
         <p className="font-display text-base">
           {/* Trusted by these six companies so far */}
->>>>>>> upstream/main
         </p>
         <ul
           role="list"
           className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
         >
           {[
-<<<<<<< HEAD
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
-=======
             // [
             //   { name: 'Transistor', logo: logoTransistor },
             //   { name: 'Tuple', logo: logoTuple },
@@ -96,7 +64,6 @@ export function Hero() {
             //   { name: 'Laravel', logo: logoLaravel },
             //   { name: 'Statamic', logo: logoStatamic },
             // ],
->>>>>>> upstream/main
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
               <ul

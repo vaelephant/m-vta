@@ -1,9 +1,5 @@
 import Head from 'next/head'
-<<<<<<< HEAD
-
-=======
 import { useState, useEffect } from 'react';
->>>>>>> upstream/main
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
@@ -13,14 +9,6 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-<<<<<<< HEAD
-
-export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>TaxPal - 11Accounting made simple for small businesses</title>
-=======
 import { MoonIcon, SunIcon } from '@heroicons/react/solid'; // 导入太阳和月亮图标
 
 
@@ -46,18 +34,14 @@ export default function Home() {
     <>
       <Head>
         <title>TaxPal - Accounting made simple for small businesses</title>
->>>>>>> upstream/main
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
         />
       </Head>
-<<<<<<< HEAD
-=======
       <button onClick={toggleDarkMode} className="fixed top-4 right-4 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 px-4 py-2 rounded-md shadow-md z-50">
         {darkMode ? <SunIcon className="w-4 h-4" /> : <MoonIcon className="w-4 h-4" />}
       </button>
->>>>>>> upstream/main
       <Header />
       <main>
         <Hero />
