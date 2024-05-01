@@ -4,13 +4,16 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotContacts from '@/images/screenshots/contacts.png'
-import screenshotInventory from '@/images/screenshots/inventory.png'
-import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotContacts from '@/images/screenshots/flowise_gif.gif'
+import screenshotInventory from '@/images/screenshots/素材006_aiagent_05.png'
+import screenshotProfitLoss from '@/images/screenshots/素材006_aiagent_02.png'
+import screenshotProfitLaoss from '@/images/screenshots/素材006_aiagent_03.png'
+import screenshotProfitLaaoss from '@/images/screenshots/素材006_aiagent_01.png'
+import screenshotProfitLasoss from '@/images/screenshots/素材006_aiagent_04.png'
 
 const features = [
   {
-    name: 'Reporting',
+    // name: 'Reporting',
     summary: '● 项目私有化部署',
     description:
       '遵循附加条件 Apache License 2.0 开源协议，本地部署更安全，更懂您的需求。',
@@ -44,7 +47,7 @@ const features = [
     },
   },
   {
-    name: 'Inventory',
+    // name: 'Inventory',
     summary:
       '● 支持多种模型',
     description:
@@ -72,7 +75,7 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    // name: 'Contacts',
     summary:
       '● 可视化工作流',
     description:
@@ -95,12 +98,12 @@ const features = [
     },
   },
   {
-    name: 'Contacts',
+    // name: 'Contacts',
     summary:
       '● 无限扩展',
     description:
       '基于 API 进行扩展，无需修改 FastGPT 源码，也可快速接入现有的程序中。',
-    image: screenshotContacts,
+    image: screenshotProfitLaoss,
     icon: function ContactsIcon() {
       return (
         <>
@@ -118,12 +121,12 @@ const features = [
     },
   }, 
   {
-    name: 'Contacts',
+    // name: 'Contacts',
     summary:
       '● 独特的 QA 结构',
     description:
       '针对客服问答场景设计的 QA 结构，提高在大量数据场景中的问答准确性。',
-    image: screenshotContacts,
+    image: screenshotProfitLasoss,
     icon: function ContactsIcon() {
       return (
         <>
@@ -141,7 +144,7 @@ const features = [
     },
   }, 
   {
-    name: 'Contacts',
+    // name: 'Contacts',
     summary:
       '● 便于调试',
     description:
