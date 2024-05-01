@@ -12,7 +12,7 @@ import logoTuple from '@/images/logos/tuple.svg'
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32 text-white">
-      <h1 className="mx-auto max-w-4xl font-display text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">
+      <h1 className="mx-auto max-w-4xl font-display text-6xl font-medium tracking-tight sm:text-xl lg:text-6xl">
         用{' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -25,7 +25,7 @@ export function Hero() {
           </svg>
           <span className="relative">M-VTA</span>
         </span>{' '}
-        帮您搭建私有化<br />大模型123企业大脑
+        帮您搭建私有化<br />大模型企业大脑
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight">
         基于LLM大模型的“企业大脑+业务自动化”私有化应用系统
